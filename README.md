@@ -1,2 +1,7 @@
 # paserver-dockerwin
-Docker containter with PAServer installed and running for RadStudio 10.2.2
+Docker Windows image with PAServer installed and running. For RadStudio Tokyo Release 2 (10.2.2)
+It is based on microsoft/windowsservercore image
+
+# Usage:
+docker pull jaruzafa/paserverwindows
+docker run -d -h mypaserver jaruzafa/paserverwindows
