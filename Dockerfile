@@ -1,7 +1,7 @@
 FROM microsoft/windowsservercore
 LABEL maintainer="jaruzafa@gmail.com"
 
-ADD . /paserver
+ADD install_paserver.bat /paserver/install_paserver.bat
 ADD http://altd.embarcadero.com/releases/studio/19.0/PAServer/Release2/setup_paserver.exe /paserver
 WORKDIR /paserver
 RUN install_paserver.bat
